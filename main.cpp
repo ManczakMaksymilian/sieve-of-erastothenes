@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void sito(int n)
+void sieve(int n)
 {
     bool arr[n];
     for (int i = 1; i * i <= n; i++)
@@ -24,7 +24,7 @@ int main()
 {
     int n;
     cin >> n;
-    sito(n);
+    sieve(n);
 
     return 0;
 }
